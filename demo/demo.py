@@ -53,11 +53,11 @@ def savefig(filename, figlist, log=True):
 
 
 def main(args):
-    if os.path.isdir('test'):
-        rmtree('test')
-    os.mkdir('test')
+    #if os.path.isdir('test'):
+    #    rmtree('test')
+    #os.mkdir('test')
 
-    x, fs = sf.read('utterance/vaiueo2d.wav')
+    x, fs = sf.read('test/ê┼ë╣âîâôâèüEÿAæ▒ë╣Ver1.5/c_A3/_éτé±éτéτéΦéτéΘéτ.wav')
     # x, fs = librosa.load('utterance/vaiueo2d.wav', dtype=np.float64)
 
     # 1. A convient way
