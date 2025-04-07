@@ -1,8 +1,7 @@
 import soundfile as sf
 import pyworld as pw
 import numpy as np
-import os
-from mido import MidiFile
+#import os
 
 sampleRate = 44100
 
@@ -38,10 +37,7 @@ def renderNotesWithTiming(notes):
         sampleIndices = np.arange(startTimeSamples, startTimeSamples+len(render))
         np.put(result, sampleIndices.astype(int), render)
     return result
-
-def generateNotesFromMidi(midiFileName):
-    midi = MidiFile(midiFileName)
-    
+   
 def createSequentialNotes (pitches, noteLengthMS):
     notes = []
     currentTime = 0
