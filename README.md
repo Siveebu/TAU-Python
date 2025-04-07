@@ -4,5 +4,5 @@
 
 Built on top of [PyWORLD](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder), a Python wrapper for [WORLD](https://github.com/mmorise/World/tree/master)
 
-##System Workflow (planned)
-![system workflow diagram](docs/software_architecture_diagram.jpg)
+## System Workflow (planned)
+![system workflow diagram](software_architecture_diagram.jpg)
